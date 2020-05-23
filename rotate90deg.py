@@ -31,6 +31,7 @@ def printArray(matrix):
 printArray(inputArray)
 
 i = int(input("How many times do you want to rotate the matrix?: "))
+print()
 
 while i > 0:
     rotate90deg(inputArray)
